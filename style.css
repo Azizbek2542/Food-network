@@ -714,6 +714,11 @@ transition: 0.3s ease;
     .parent-container2_text h2 {
         text-align: center !important;
     }
+    .parent-container2_text h3 {
+        justify-self: center !important;
+        text-align: center !important;
+        background-color: green;
+    }
 }
 
 @media(max-width:500px) {
@@ -1574,7 +1579,9 @@ transition: 0.3s ease;
 .menu-form {
     display: grid;
     justify-self: center !important;
-    background-color: transparent;
+    margin: 0 auto !important;
+    width: fit-content !important;
+    background-color: yellow;
 }
 
 .order-input {
