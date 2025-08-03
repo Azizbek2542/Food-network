@@ -717,7 +717,6 @@ transition: 0.3s ease;
     .parent-container2_text h3 {
         justify-self: center !important;
         text-align: center !important;
-        background-color: green;
     }
 }
 
@@ -1138,6 +1137,10 @@ width: auto !important;
 .carousel__button.fancybox__button--fullscreen,
 .carousel__button.fancybox__button--zoom {
     transition: 0.3s ease;
+}
+
+.fancybox__spinner {
+  color: orange !important; 
 }
 
 @media(max-width:1335px) {
@@ -1581,7 +1584,6 @@ transition: 0.3s ease;
     justify-self: center !important;
     margin: 0 auto !important;
     width: fit-content !important;
-    background-color: yellow;
 }
 
 .order-input {
