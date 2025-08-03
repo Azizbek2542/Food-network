@@ -253,6 +253,9 @@ body {
     .footer_navbar a:active {
         color: #FF4C4C !important;
     }
+    .box-img-card:hover img {
+        transform: none !important;
+    }
 }
 
 @media(max-width:460px) {
@@ -302,7 +305,7 @@ body {
     .parent-container5_text2 p {
         font-size: 14px !important;
     }
-    form {
+    #Contact-form {
         display: grid !important;
         justify-content: unset !important;
         gap: 40px;
@@ -704,9 +707,8 @@ transition: 0.3s ease;
         text-align: center !important;
     }
     .parent-container2_text {
-        /* background-color: red; */
         text-align: center !important;
-        justify-items: center;
+        justify-items: center !important;
         margin: 0 auto;
     }
     .parent-container2_text h2 {
@@ -1120,6 +1122,19 @@ width: auto !important;
     animation: img18 1s ease-in-out infinite;
 }
 
+.carousel__button.fancybox__button--close:hover,
+.carousel__button.fancybox__button--fullscreen:hover,
+.carousel__button.fancybox__button--zoom:hover {
+    color: orange;
+    transition: 0.3s ease;
+}
+
+.carousel__button.fancybox__button--close,
+.carousel__button.fancybox__button--fullscreen,
+.carousel__button.fancybox__button--zoom {
+    transition: 0.3s ease;
+}
+
 @media(max-width:1335px) {
     .parent-container4 {
         padding: 0px 150px;
@@ -1479,8 +1494,8 @@ transition: 0.3s ease;
   justify-content: center;
   gap: 15px;
   max-height: fit-content;
-  width: 200px;
-  max-width: 90%;
+  text-align: center !important;
+  max-width: 200px !important;
   opacity: 0;
   transition: opacity 0.75s ease, transform 0.75s ease;
   pointer-events: none;
@@ -1546,7 +1561,7 @@ transition: 0.3s ease;
   border-radius: 12px;
   width: 300px;
   max-width: 90%;
-  text-align: center;
+  text-align: center !important;
 }
 
 .modal input {
@@ -1558,7 +1573,7 @@ transition: 0.3s ease;
 
 .menu-form {
     display: grid;
-    justify-self: center;
+    justify-self: center !important;
     background-color: transparent;
 }
 
